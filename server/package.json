@@ -1,0 +1,22 @@
+{
+  "name": "decodevault-backend",
+  "version": "1.0.0",
+  "description": "Node.js Express & MongoDB backend for DecodeVault",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^16.6.1",
+    "express": "^4.22.3",
+    "mongodb-memory-server": "^9.5.0",
+    "mongoose": "^8.24.5",
+    "nedb-promises": "^6.2.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
